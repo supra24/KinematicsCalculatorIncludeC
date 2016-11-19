@@ -1,0 +1,87 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBrown</item>
+        <item name="colorPrimaryDark">@color/colorDarkBrown</item>
+        <item name="colorAccent">@color/colorDarkBrown</item>
+
+    </style>
+
+    <style name="pictureListHeader">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/subheading</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="pictureListViewTextViewForward">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/subheading</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:ems">5</item>
+    </style>
+
+    <style name="pictureListViewEditTextForward">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/subheading</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:ems">5</item>
+        <item name="android:inputType">numberDecimal</item>
+    </style>
+
+    <style name="pictureListViewTextViewInverse">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/subheading</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:ems">1</item>
+    </style>
+
+    <style name="pictureListViewToggleButtonInverseJoin">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:ems">4</item>
+        <item name="android:textOff">S</item>
+        <item name="android:textOn">Z</item>
+    </style>
+
+    <style name="pictureListViewToggleButtonInverseEffector">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:textOff">S</item>
+        <item name="android:textOn">Z</item>
+    </style>
+
+    <style name="modelEffector">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="coordinatesTextView">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">normal|bold</item>
+    </style>
+
+
+</resources>
